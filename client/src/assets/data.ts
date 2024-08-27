@@ -1,6 +1,6 @@
 //Determine the type of data
 // export interface Data {
-//     _id: string;
+//     id: string;
 //     name: string;
 //     title: string;
 //     role: string;
@@ -17,7 +17,7 @@ export const summary = {
     totalTasks: 10,
     last10Task: [
         {
-            _id: "65c5f12ab5204a81bde866a9",
+            id: "65c5f12ab5204a81bde866a9",
             title: "Test task",
             date: "2024-02-09T00:00:00.000Z",
             priority: "high",
@@ -28,21 +28,21 @@ export const summary = {
             ],
             team: [
                 {
-                    _id: "65c202d4aa62f32ffd1303cc",
+                    id: "65c202d4aa62f32ffd1303cc",
                     name: "Tory Robinson",
                     title: "Administrator",
                     role: "Admin",
                     email: "admin@gmail.com",
                 },
                 {
-                    _id: "65c30b96e639681a13def0b5",
+                    id: "65c30b96e639681a13def0b5",
                     name: "Jane Smith",
                     title: "Product Manager",
                     role: "Manager",
                     email: "jane.smith@example.com",
                 },
                 {
-                    _id: "65c317360fd860f958baa08e",
+                    id: "65c317360fd860f958baa08e",
                     name: "Alex Johnson",
                     title: "UX Designer",
                     role: "Designer",
@@ -56,7 +56,7 @@ export const summary = {
                     title: "Task manager youtube tutorial",
                     date: "2024-02-09T00:00:00.000Z",
                     tag: "tutorial",
-                    _id: "65c5f153b5204a81bde866c8",
+                    id: "65c5f153b5204a81bde866c8",
                 },
             ],
             createdAt: "2024-02-09T09:32:26.574Z",
@@ -64,7 +64,7 @@ export const summary = {
             __v: 1,
         },
         {
-            _id: "65c5d547660756f6fd453a7a",
+            id: "65c5d547660756f6fd453a7a",
             title: "Duplicate - Duplicate - Review Code Changes",
             date: "2024-02-09T00:00:00.000Z",
             priority: "medium",
@@ -72,14 +72,14 @@ export const summary = {
             assets: [],
             team: [
                 {
-                    _id: "65c317360fd860f958baa08e",
+                    id: "65c317360fd860f958baa08e",
                     name: "Alex Johnson",
                     title: "UX Designer",
                     role: "Designer",
                     email: "alex.johnson@example.com",
                 },
                 {
-                    _id: "65c3176a0fd860f958baa099",
+                    id: "65c3176a0fd860f958baa099",
                     name: "Emily Wilson",
                     title: "Data Analyst",
                     role: "Analyst",
@@ -93,21 +93,21 @@ export const summary = {
                     activity: "Project started",
                     date: "2024-02-09T09:16:56.623Z",
                     by: "65c202d4aa62f32ffd1303cc",
-                    _id: "65c5f18bb5204a81bde866d1",
+                    id: "65c5f18bb5204a81bde866d1",
                 },
                 {
                     type: "commented",
                     activity: "i like coding!!",
                     date: "2024-02-09T09:16:56.623Z",
                     by: "65c202d4aa62f32ffd1303cc",
-                    _id: "65c5f19eb5204a81bde866dd",
+                    id: "65c5f19eb5204a81bde866dd",
                 },
                 {
                     type: "bug",
                     activity: "bug found",
                     date: "2024-02-09T09:16:56.623Z",
                     by: "65c202d4aa62f32ffd1303cc",
-                    _id: "65c5f1abb5204a81bde866eb",
+                    id: "65c5f1abb5204a81bde866eb",
                 },
             ],
             subTasks: [
@@ -115,7 +115,7 @@ export const summary = {
                     title: "Blog App Admin Dashboard",
                     date: "2024-02-08T00:00:00.000Z",
                     tag: "Website App",
-                    _id: "65c3535476ed5c48f9440973",
+                    id: "65c3535476ed5c48f9440973",
                 },
             ],
             createdAt: "2024-02-09T07:33:27.590Z",
@@ -123,7 +123,7 @@ export const summary = {
             __v: 4,
         },
         {
-            _id: "65c46026af6ec0118be9407a",
+            id: "65c46026af6ec0118be9407a",
             title: "Website Project Proposal Review",
             date: "2024-02-07T00:00:00.000Z",
             priority: "high",
@@ -135,21 +135,21 @@ export const summary = {
             ],
             team: [
                 {
-                    _id: "65c202d4aa62f32ffd1303cc",
+                    id: "65c202d4aa62f32ffd1303cc",
                     name: "Tory Robinson",
                     title: "Administrator",
                     role: "Admin",
                     email: "admin@gmail.com",
                 },
                 {
-                    _id: "65c27a0e18c0a1b750ad5cad",
+                    id: "65c27a0e18c0a1b750ad5cad",
                     name: "John Doe",
                     title: "Software Engineer",
                     role: "Developer",
                     email: "john.doe@example.com",
                 },
                 {
-                    _id: "65c30b96e639681a13def0b5",
+                    id: "65c30b96e639681a13def0b5",
                     name: "Jane Smith",
                     title: "Product Manager",
                     role: "Manager",
@@ -163,14 +163,14 @@ export const summary = {
                     activity: "Test activity. Let's go!!!",
                     date: "2024-02-08T17:55:34.353Z",
                     by: "65c202d4aa62f32ffd1303cc",
-                    _id: "65c5188be1585cfa650b79c4",
+                    id: "65c5188be1585cfa650b79c4",
                 },
                 {
                     type: "in progress",
                     activity: "Project is progress. Hiope to fin=ish soon!!",
                     date: "2024-02-08T17:55:34.353Z",
                     by: "65c202d4aa62f32ffd1303cc",
-                    _id: "65c518dce1585cfa650b79da",
+                    id: "65c518dce1585cfa650b79da",
                 },
                 {
                     type: "bug",
@@ -178,14 +178,14 @@ export const summary = {
                         "Bug found in the code. Kindly check and fixed ASAP!!!",
                     date: "2024-02-08T18:13:14.717Z",
                     by: "65c202d4aa62f32ffd1303cc",
-                    _id: "65c51a5e8064df97d208b392",
+                    id: "65c51a5e8064df97d208b392",
                 },
                 {
                     type: "commented",
                     activity: "Nice work. Let's finished hard!!!",
                     date: "2024-02-08T18:13:14.717Z",
                     by: "65c202d4aa62f32ffd1303cc",
-                    _id: "65c51af08064df97d208b3b0",
+                    id: "65c51af08064df97d208b3b0",
                 },
             ],
             subTasks: [
@@ -193,13 +193,13 @@ export const summary = {
                     title: "Blog App Dashboard",
                     date: "2024-02-06T00:00:00.000Z",
                     tag: "Design",
-                    _id: "65c352e776ed5c48f944095c",
+                    id: "65c352e776ed5c48f944095c",
                 },
                 {
                     title: "Blog App Admin Dashboard",
                     date: "2024-02-07T00:00:00.000Z",
                     tag: "Design",
-                    _id: "65c3531476ed5c48f9440965",
+                    id: "65c3531476ed5c48f9440965",
                 },
             ],
             createdAt: "2024-02-08T05:01:26.983Z",
@@ -207,7 +207,7 @@ export const summary = {
             __v: 8,
         },
         {
-            _id: "65c45fb6af6ec0118be94052",
+            id: "65c45fb6af6ec0118be94052",
             title: "Task Manager Youtube Video",
             date: "2024-02-11T00:00:00.000Z",
             priority: "medium",
@@ -218,14 +218,14 @@ export const summary = {
             ],
             team: [
                 {
-                    _id: "65c317360fd860f958baa08e",
+                    id: "65c317360fd860f958baa08e",
                     name: "Alex Johnson",
                     title: "UX Designer",
                     role: "Designer",
                     email: "alex.johnson@example.com",
                 },
                 {
-                    _id: "65c3176a0fd860f958baa099",
+                    id: "65c3176a0fd860f958baa099",
                     name: "Emily Wilson",
                     title: "Data Analyst",
                     role: "Analyst",
@@ -239,7 +239,7 @@ export const summary = {
                     activity: "Project completed!!",
                     date: "2024-02-08T18:13:14.717Z",
                     by: "65c202d4aa62f32ffd1303cc",
-                    _id: "65c51b998064df97d208b3f9",
+                    id: "65c51b998064df97d208b3f9",
                 },
             ],
             subTasks: [
@@ -247,7 +247,7 @@ export const summary = {
                     title: "Blog App Admin Dashboard",
                     date: "2024-02-08T00:00:00.000Z",
                     tag: "Website App",
-                    _id: "65c3535476ed5c48f9440973",
+                    id: "65c3535476ed5c48f9440973",
                 },
             ],
             createdAt: "2024-02-08T04:59:34.826Z",
@@ -255,7 +255,7 @@ export const summary = {
             __v: 3,
         },
         {
-            _id: "65c4586f0548279012f8c256",
+            id: "65c4586f0548279012f8c256",
             title: "Bug Fixing",
             date: "2024-02-07T00:00:00.000Z",
             priority: "high",
@@ -269,21 +269,21 @@ export const summary = {
             ],
             team: [
                 {
-                    _id: "65c30b96e639681a13def0b5",
+                    id: "65c30b96e639681a13def0b5",
                     name: "Jane Smith",
                     title: "Product Manager",
                     role: "Manager",
                     email: "jane.smith@example.com",
                 },
                 {
-                    _id: "65c202d4aa62f32ffd1303cc",
+                    id: "65c202d4aa62f32ffd1303cc",
                     name: "Tory Robinson",
                     title: "Administrator",
                     role: "Admin",
                     email: "admin@gmail.com",
                 },
                 {
-                    _id: "65c317360fd860f958baa08e",
+                    id: "65c317360fd860f958baa08e",
                     name: "Alex Johnson",
                     title: "UX Designer",
                     role: "Designer",
@@ -297,7 +297,7 @@ export const summary = {
                     activity: "Great!!!",
                     date: "2024-02-08T18:13:14.717Z",
                     by: "65c202d4aa62f32ffd1303cc",
-                    _id: "65c51b678064df97d208b3d6",
+                    id: "65c51b678064df97d208b3d6",
                 },
             ],
             subTasks: [
@@ -305,7 +305,7 @@ export const summary = {
                     title: "Check Login code and fix bugs asap",
                     date: "2024-02-08T00:00:00.000Z",
                     tag: "Bug Fixing",
-                    _id: "65c46074af6ec0118be94094",
+                    id: "65c46074af6ec0118be94094",
                 },
             ],
             createdAt: "2024-02-08T04:28:31.966Z",
@@ -313,7 +313,7 @@ export const summary = {
             __v: 3,
         },
         {
-            _id: "65c3c457fb9c6768ce4bc31a",
+            id: "65c3c457fb9c6768ce4bc31a",
             title: "Duplicate - Website Project Proposal",
             date: "2024-02-07T17:55:13.218Z",
             priority: "high",
@@ -321,21 +321,21 @@ export const summary = {
             assets: [],
             team: [
                 {
-                    _id: "65c202d4aa62f32ffd1303cc",
+                    id: "65c202d4aa62f32ffd1303cc",
                     name: "Tory Robinson",
                     title: "Administrator",
                     role: "Admin",
                     email: "admin@gmail.com",
                 },
                 {
-                    _id: "65c27a0e18c0a1b750ad5cad",
+                    id: "65c27a0e18c0a1b750ad5cad",
                     name: "John Doe",
                     title: "Software Engineer",
                     role: "Developer",
                     email: "john.doe@example.com",
                 },
                 {
-                    _id: "65c30b96e639681a13def0b5",
+                    id: "65c30b96e639681a13def0b5",
                     name: "Jane Smith",
                     title: "Product Manager",
                     role: "Manager",
@@ -349,13 +349,13 @@ export const summary = {
                     title: "Blog App Dashboard",
                     date: "2024-02-06T00:00:00.000Z",
                     tag: "Design",
-                    _id: "65c352e776ed5c48f944095c",
+                    id: "65c352e776ed5c48f944095c",
                 },
                 {
                     title: "Blog App Admin Dashboard",
                     date: "2024-02-07T00:00:00.000Z",
                     tag: "Design",
-                    _id: "65c3531476ed5c48f9440965",
+                    id: "65c3531476ed5c48f9440965",
                 },
             ],
             createdAt: "2024-02-07T17:56:39.969Z",
@@ -363,7 +363,7 @@ export const summary = {
             __v: 1,
         },
         {
-            _id: "65c3c439fb9c6768ce4bc308",
+            id: "65c3c439fb9c6768ce4bc308",
             title: "Duplicate - Review Code Changes",
             date: "2024-02-07T17:55:13.218Z",
             priority: "medium",
@@ -371,14 +371,14 @@ export const summary = {
             assets: [],
             team: [
                 {
-                    _id: "65c317360fd860f958baa08e",
+                    id: "65c317360fd860f958baa08e",
                     name: "Alex Johnson",
                     title: "UX Designer",
                     role: "Designer",
                     email: "alex.johnson@example.com",
                 },
                 {
-                    _id: "65c3176a0fd860f958baa099",
+                    id: "65c3176a0fd860f958baa099",
                     name: "Emily Wilson",
                     title: "Data Analyst",
                     role: "Analyst",
@@ -392,7 +392,7 @@ export const summary = {
                     title: "Blog App Admin Dashboard",
                     date: "2024-02-08T00:00:00.000Z",
                     tag: "Website App",
-                    _id: "65c3535476ed5c48f9440973",
+                    id: "65c3535476ed5c48f9440973",
                 },
             ],
             createdAt: "2024-02-07T17:56:09.174Z",
@@ -400,7 +400,7 @@ export const summary = {
             __v: 1,
         },
         {
-            _id: "65c3c21f55ae9b2f7666e86c",
+            id: "65c3c21f55ae9b2f7666e86c",
             title: "Duplicate - Website Project Proposal",
             date: "2024-02-07T17:46:56.040Z",
             priority: "normal",
@@ -408,21 +408,21 @@ export const summary = {
             assets: [],
             team: [
                 {
-                    _id: "65c202d4aa62f32ffd1303cc",
+                    id: "65c202d4aa62f32ffd1303cc",
                     name: "Tory Robinson",
                     title: "Administrator",
                     role: "Admin",
                     email: "admin@gmail.com",
                 },
                 {
-                    _id: "65c27a0e18c0a1b750ad5cad",
+                    id: "65c27a0e18c0a1b750ad5cad",
                     name: "John Doe",
                     title: "Software Engineer",
                     role: "Developer",
                     email: "john.doe@example.com",
                 },
                 {
-                    _id: "65c30b96e639681a13def0b5",
+                    id: "65c30b96e639681a13def0b5",
                     name: "Jane Smith",
                     title: "Product Manager",
                     role: "Manager",
@@ -436,13 +436,13 @@ export const summary = {
                     title: "Blog App Dashboard",
                     date: "2024-02-06T00:00:00.000Z",
                     tag: "Design",
-                    _id: "65c352e776ed5c48f944095c",
+                    id: "65c352e776ed5c48f944095c",
                 },
                 {
                     title: "Blog App Admin Dashboard",
                     date: "2024-02-07T00:00:00.000Z",
                     tag: "Design",
-                    _id: "65c3531476ed5c48f9440965",
+                    id: "65c3531476ed5c48f9440965",
                 },
             ],
             createdAt: "2024-02-07T17:47:11.560Z",
@@ -450,7 +450,7 @@ export const summary = {
             __v: 1,
         },
         {
-            _id: "65c352b376ed5c48f9440955",
+            id: "65c352b376ed5c48f9440955",
             title: "Review Code Changes",
             date: "2024-02-05T00:00:00.000Z",
             priority: "medium",
@@ -458,14 +458,14 @@ export const summary = {
             assets: [],
             team: [
                 {
-                    _id: "65c317360fd860f958baa08e",
+                    id: "65c317360fd860f958baa08e",
                     name: "Alex Johnson",
                     title: "UX Designer",
                     role: "Designer",
                     email: "alex.johnson@example.com",
                 },
                 {
-                    _id: "65c3176a0fd860f958baa099",
+                    id: "65c3176a0fd860f958baa099",
                     name: "Emily Wilson",
                     title: "Data Analyst",
                     role: "Analyst",
@@ -479,7 +479,7 @@ export const summary = {
                     title: "Blog App Admin Dashboard",
                     date: "2024-02-08T00:00:00.000Z",
                     tag: "Website App",
-                    _id: "65c3535476ed5c48f9440973",
+                    id: "65c3535476ed5c48f9440973",
                 },
             ],
             createdAt: "2024-02-07T09:51:47.149Z",
@@ -487,7 +487,7 @@ export const summary = {
             __v: 1,
         },
         {
-            _id: "65c351b976ed5c48f9440947",
+            id: "65c351b976ed5c48f9440947",
             title: "Website Project Proposal",
             date: "2024-02-07T00:00:00.000Z",
             priority: "high",
@@ -495,21 +495,21 @@ export const summary = {
             assets: [],
             team: [
                 {
-                    _id: "65c202d4aa62f32ffd1303cc",
+                    id: "65c202d4aa62f32ffd1303cc",
                     name: "Tory Robinson",
                     title: "Administrator",
                     role: "Admin",
                     email: "admin@gmail.com",
                 },
                 {
-                    _id: "65c27a0e18c0a1b750ad5cad",
+                    id: "65c27a0e18c0a1b750ad5cad",
                     name: "John Doe",
                     title: "Software Engineer",
                     role: "Developer",
                     email: "john.doe@example.com",
                 },
                 {
-                    _id: "65c30b96e639681a13def0b5",
+                    id: "65c30b96e639681a13def0b5",
                     name: "Jane Smith",
                     title: "Product Manager",
                     role: "Manager",
@@ -523,13 +523,13 @@ export const summary = {
                     title: "Blog App Dashboard",
                     date: "2024-02-06T00:00:00.000Z",
                     tag: "Design",
-                    _id: "65c352e776ed5c48f944095c",
+                    id: "65c352e776ed5c48f944095c",
                 },
                 {
                     title: "Blog App Admin Dashboard",
                     date: "2024-02-07T00:00:00.000Z",
                     tag: "Design",
-                    _id: "65c3531476ed5c48f9440965",
+                    id: "65c3531476ed5c48f9440965",
                 },
             ],
             createdAt: "2024-02-07T09:47:37.337Z",
@@ -539,7 +539,7 @@ export const summary = {
     ],
     users: [
         {
-            _id: "65c5f27fb5204a81bde86833",
+            id: "65c5f27fb5204a81bde86833",
             name: "New User",
             title: "Designer",
             role: "Developer",
@@ -547,7 +547,7 @@ export const summary = {
             createdAt: "2024-02-09T09:38:07.765Z",
         },
         {
-            _id: "65c3176a0fd860f958baa099",
+            id: "65c3176a0fd860f958baa099",
             name: "Emily Wilson",
             title: "Data Analyst",
             role: "Analyst",
@@ -555,7 +555,7 @@ export const summary = {
             createdAt: "2024-02-07T05:38:50.816Z",
         },
         {
-            _id: "65c317360fd860f958baa08e",
+            id: "65c317360fd860f958baa08e",
             name: "Alex Johnson",
             title: "UX Designer",
             role: "Designer",
@@ -563,7 +563,7 @@ export const summary = {
             createdAt: "2024-02-07T05:37:58.862Z",
         },
         {
-            _id: "65c30b96e639681a13def0b5",
+            id: "65c30b96e639681a13def0b5",
             name: "Jane Smith",
             title: "Product Manager",
             role: "Manager",
@@ -571,7 +571,7 @@ export const summary = {
             createdAt: "2024-02-07T04:48:22.519Z",
         },
         {
-            _id: "65c202d4aa62f32ffd1303cc",
+            id: "65c202d4aa62f32ffd1303cc",
             name: "Tory Robinson",
             title: "Administrator",
             role: "Admin",
@@ -607,7 +607,7 @@ export const chartData = [
 
 export const tasks = [
     {
-        _id: "65c5f12ab5204a81bde866a9",
+        id: "65c5f12ab5204a81bde866a9",
         title: "Test task",
         date: "2024-02-09T00:00:00.000Z",
         priority: "high",
@@ -618,19 +618,19 @@ export const tasks = [
         ],
         team: [
             {
-                _id: "65c202d4aa62f32ffd1303cc",
+                id: "65c202d4aa62f32ffd1303cc",
                 name: "Tory Robinson",
                 title: "Administrator",
                 email: "admin@gmail.com",
             },
             {
-                _id: "65c30b96e639681a13def0b5",
+                id: "65c30b96e639681a13def0b5",
                 name: "Jane Smith",
                 title: "Product Manager",
                 email: "jane.smith@example.com",
             },
             {
-                _id: "65c317360fd860f958baa08e",
+                id: "65c317360fd860f958baa08e",
                 name: "Alex Johnson",
                 title: "UX Designer",
                 email: "alex.johnson@example.com",
@@ -643,7 +643,7 @@ export const tasks = [
                 title: "Task manager youtube tutorial",
                 date: "2024-02-09T00:00:00.000Z",
                 tag: "tutorial",
-                _id: "65c5f153b5204a81bde866c8",
+                id: "65c5f153b5204a81bde866c8",
             },
         ],
         createdAt: "2024-02-09T09:32:26.574Z",
@@ -651,7 +651,7 @@ export const tasks = [
         __v: 1,
     },
     {
-        _id: "65c5d547660756f6fd453a7a",
+        id: "65c5d547660756f6fd453a7a",
         title: "Duplicate - Duplicate - Review Code Changes",
         date: "2024-02-09T00:00:00.000Z",
         priority: "medium",
@@ -659,13 +659,13 @@ export const tasks = [
         assets: [],
         team: [
             {
-                _id: "65c317360fd860f958baa08e",
+                id: "65c317360fd860f958baa08e",
                 name: "Alex Johnson",
                 title: "UX Designer",
                 email: "alex.johnson@example.com",
             },
             {
-                _id: "65c3176a0fd860f958baa099",
+                id: "65c3176a0fd860f958baa099",
                 name: "Emily Wilson",
                 title: "Data Analyst",
                 email: "emily.wilson@example.com",
@@ -678,21 +678,21 @@ export const tasks = [
                 activity: "Project started",
                 date: "2024-02-09T09:16:56.623Z",
                 by: "65c202d4aa62f32ffd1303cc",
-                _id: "65c5f18bb5204a81bde866d1",
+                id: "65c5f18bb5204a81bde866d1",
             },
             {
                 type: "commented",
                 activity: "i like coding!!",
                 date: "2024-02-09T09:16:56.623Z",
                 by: "65c202d4aa62f32ffd1303cc",
-                _id: "65c5f19eb5204a81bde866dd",
+                id: "65c5f19eb5204a81bde866dd",
             },
             {
                 type: "bug",
                 activity: "bug found",
                 date: "2024-02-09T09:16:56.623Z",
                 by: "65c202d4aa62f32ffd1303cc",
-                _id: "65c5f1abb5204a81bde866eb",
+                id: "65c5f1abb5204a81bde866eb",
             },
         ],
         subTasks: [
@@ -700,7 +700,7 @@ export const tasks = [
                 title: "Blog App Admin Dashboard",
                 date: "2024-02-08T00:00:00.000Z",
                 tag: "Website App",
-                _id: "65c3535476ed5c48f9440973",
+                id: "65c3535476ed5c48f9440973",
             },
         ],
         createdAt: "2024-02-09T07:33:27.590Z",
@@ -708,7 +708,7 @@ export const tasks = [
         __v: 4,
     },
     {
-        _id: "65c46026af6ec0118be9407a",
+        id: "65c46026af6ec0118be9407a",
         title: "Website Project Proposal Review",
         date: "2024-02-07T00:00:00.000Z",
         priority: "high",
@@ -720,19 +720,19 @@ export const tasks = [
         ],
         team: [
             {
-                _id: "65c202d4aa62f32ffd1303cc",
+                id: "65c202d4aa62f32ffd1303cc",
                 name: "Tory Robinson",
                 title: "Administrator",
                 email: "admin@gmail.com",
             },
             {
-                _id: "65c27a0e18c0a1b750ad5cad",
+                id: "65c27a0e18c0a1b750ad5cad",
                 name: "John Doe",
                 title: "Software Engineer",
                 email: "john.doe@example.com",
             },
             {
-                _id: "65c30b96e639681a13def0b5",
+                id: "65c30b96e639681a13def0b5",
                 name: "Jane Smith",
                 title: "Product Manager",
                 email: "jane.smith@example.com",
@@ -745,14 +745,14 @@ export const tasks = [
                 activity: "Test activity. Let's go!!!",
                 date: "2024-02-08T17:55:34.353Z",
                 by: "65c202d4aa62f32ffd1303cc",
-                _id: "65c5188be1585cfa650b79c4",
+                id: "65c5188be1585cfa650b79c4",
             },
             {
                 type: "in progress",
                 activity: "Project is progress. Hiope to fin=ish soon!!",
                 date: "2024-02-08T17:55:34.353Z",
                 by: "65c202d4aa62f32ffd1303cc",
-                _id: "65c518dce1585cfa650b79da",
+                id: "65c518dce1585cfa650b79da",
             },
             {
                 type: "bug",
@@ -760,14 +760,14 @@ export const tasks = [
                     "Bug found in the code. Kindly check and fixed ASAP!!!",
                 date: "2024-02-08T18:13:14.717Z",
                 by: "65c202d4aa62f32ffd1303cc",
-                _id: "65c51a5e8064df97d208b392",
+                id: "65c51a5e8064df97d208b392",
             },
             {
                 type: "commented",
                 activity: "Nice work. Let's finished hard!!!",
                 date: "2024-02-08T18:13:14.717Z",
                 by: "65c202d4aa62f32ffd1303cc",
-                _id: "65c51af08064df97d208b3b0",
+                id: "65c51af08064df97d208b3b0",
             },
         ],
         subTasks: [
@@ -775,13 +775,13 @@ export const tasks = [
                 title: "Blog App Dashboard",
                 date: "2024-02-06T00:00:00.000Z",
                 tag: "Design",
-                _id: "65c352e776ed5c48f944095c",
+                id: "65c352e776ed5c48f944095c",
             },
             {
                 title: "Blog App Admin Dashboard",
                 date: "2024-02-07T00:00:00.000Z",
                 tag: "Design",
-                _id: "65c3531476ed5c48f9440965",
+                id: "65c3531476ed5c48f9440965",
             },
         ],
         createdAt: "2024-02-08T05:01:26.983Z",
@@ -789,7 +789,7 @@ export const tasks = [
         __v: 8,
     },
     {
-        _id: "65c45fb6af6ec0118be94052",
+        id: "65c45fb6af6ec0118be94052",
         title: "Task Manager Youtube Video",
         date: "2024-02-11T00:00:00.000Z",
         priority: "medium",
@@ -800,13 +800,13 @@ export const tasks = [
         ],
         team: [
             {
-                _id: "65c317360fd860f958baa08e",
+                id: "65c317360fd860f958baa08e",
                 name: "Alex Johnson",
                 title: "UX Designer",
                 email: "alex.johnson@example.com",
             },
             {
-                _id: "65c3176a0fd860f958baa099",
+                id: "65c3176a0fd860f958baa099",
                 name: "Emily Wilson",
                 title: "Data Analyst",
                 email: "emily.wilson@example.com",
@@ -818,22 +818,22 @@ export const tasks = [
                 type: "started",
                 activity: "Project completed!!",
                 date: "2024-02-08T18:13:14.717Z",
-                by: { _id: "65c202d4aa62f32ffd1303cc", name: "Tory Robinson" },
-                _id: "65c51b998064dfd208b3f9",
+                y: { _id: "65c202d4aa62f32ffd1303cc", name: "Tory Robinson" },
+                id: "65c51b998064dfd208b3f9",
             },
             {
                 type: "commented",
                 activity: "Project completed!!",
                 date: "2024-02-08T18:13:14.717Z",
-                by: { _id: "65c202d4aa62f32ffd1303cc", name: "Tory Robinson" },
-                _id: "65c51b98064df97d208b3f9",
+                y: { _id: "65c202d4aa62f32ffd1303cc", name: "Tory Robinson" },
+                id: "65c51b98064df97d208b3f9",
             },
             {
                 type: "completed",
                 activity: "Project completed!!",
                 date: "2024-02-08T18:13:14.717Z",
-                by: { _id: "65c202d4aa62f32ffd1303cc", name: "Tory Robinson" },
-                _id: "65c51b998064df97d208b3f9",
+                y: { _id: "65c202d4aa62f32ffd1303cc", name: "Tory Robinson" },
+                id: "65c51b998064df97d208b3f9",
             },
         ],
         subTasks: [
@@ -841,7 +841,7 @@ export const tasks = [
                 title: "Blog App Admin Dashboard",
                 date: "2024-02-08T00:00:00.000Z",
                 tag: "Website App",
-                _id: "65c3535476ed5c48f9440973",
+                id: "65c3535476ed5c48f9440973",
             },
         ],
         createdAt: "2024-02-08T04:59:34.826Z",
@@ -849,7 +849,7 @@ export const tasks = [
         __v: 3,
     },
     {
-        _id: "65c4586f0548279012f8c256",
+        id: "65c4586f0548279012f8c256",
         title: "Bug Fixing",
         date: "2024-02-07T00:00:00.000Z",
         priority: "high",
@@ -863,19 +863,19 @@ export const tasks = [
         ],
         team: [
             {
-                _id: "65c30b96e639681a13def0b5",
+                id: "65c30b96e639681a13def0b5",
                 name: "Jane Smith",
                 title: "Product Manager",
                 email: "jane.smith@example.com",
             },
             {
-                _id: "65c202d4aa62f32ffd1303cc",
+                id: "65c202d4aa62f32ffd1303cc",
                 name: "Tory Robinson",
                 title: "Administrator",
                 email: "admin@gmail.com",
             },
             {
-                _id: "65c317360fd860f958baa08e",
+                id: "65c317360fd860f958baa08e",
                 name: "Alex Johnson",
                 title: "UX Designer",
                 email: "alex.johnson@example.com",
@@ -888,7 +888,7 @@ export const tasks = [
                 activity: "Great!!!",
                 date: "2024-02-08T18:13:14.717Z",
                 by: "65c202d4aa62f32ffd1303cc",
-                _id: "65c51b678064df97d208b3d6",
+                id: "65c51b678064df97d208b3d6",
             },
         ],
         subTasks: [
@@ -896,7 +896,7 @@ export const tasks = [
                 title: "Check Login code and fix bugs asap",
                 date: "2024-02-08T00:00:00.000Z",
                 tag: "Bug Fixing",
-                _id: "65c46074af6ec0118be94094",
+                id: "65c46074af6ec0118be94094",
             },
         ],
         createdAt: "2024-02-08T04:28:31.966Z",
@@ -904,7 +904,7 @@ export const tasks = [
         __v: 3,
     },
     {
-        _id: "65c3c457fb9c6768ce4bc31a",
+        id: "65c3c457fb9c6768ce4bc31a",
         title: "Duplicate - Website Project Proposal",
         date: "2024-02-07T17:55:13.218Z",
         priority: "high",
@@ -912,19 +912,19 @@ export const tasks = [
         assets: [],
         team: [
             {
-                _id: "65c202d4aa62f32ffd1303cc",
+                id: "65c202d4aa62f32ffd1303cc",
                 name: "Tory Robinson",
                 title: "Administrator",
                 email: "admin@gmail.com",
             },
             {
-                _id: "65c27a0e18c0a1b750ad5cad",
+                id: "65c27a0e18c0a1b750ad5cad",
                 name: "John Doe",
                 title: "Software Engineer",
                 email: "john.doe@example.com",
             },
             {
-                _id: "65c30b96e639681a13def0b5",
+                id: "65c30b96e639681a13def0b5",
                 name: "Jane Smith",
                 title: "Product Manager",
                 email: "jane.smith@example.com",
@@ -937,13 +937,13 @@ export const tasks = [
                 title: "Blog App Dashboard",
                 date: "2024-02-06T00:00:00.000Z",
                 tag: "Design",
-                _id: "65c352e776ed5c48f944095c",
+                id: "65c352e776ed5c48f944095c",
             },
             {
                 title: "Blog App Admin Dashboard",
                 date: "2024-02-07T00:00:00.000Z",
                 tag: "Design",
-                _id: "65c3531476ed5c48f9440965",
+                id: "65c3531476ed5c48f9440965",
             },
         ],
         createdAt: "2024-02-07T17:56:39.969Z",
@@ -951,7 +951,7 @@ export const tasks = [
         __v: 1,
     },
     {
-        _id: "65c3c439fb9c6768ce4bc308",
+        id: "65c3c439fb9c6768ce4bc308",
         title: "Duplicate - Review Code Changes",
         date: "2024-02-07T17:55:13.218Z",
         priority: "medium",
@@ -959,13 +959,13 @@ export const tasks = [
         assets: [],
         team: [
             {
-                _id: "65c317360fd860f958baa08e",
+                id: "65c317360fd860f958baa08e",
                 name: "Alex Johnson",
                 title: "UX Designer",
                 email: "alex.johnson@example.com",
             },
             {
-                _id: "65c3176a0fd860f958baa099",
+                id: "65c3176a0fd860f958baa099",
                 name: "Emily Wilson",
                 title: "Data Analyst",
                 email: "emily.wilson@example.com",
@@ -978,7 +978,7 @@ export const tasks = [
                 title: "Blog App Admin Dashboard",
                 date: "2024-02-08T00:00:00.000Z",
                 tag: "Website App",
-                _id: "65c3535476ed5c48f9440973",
+                id: "65c3535476ed5c48f9440973",
             },
         ],
         createdAt: "2024-02-07T17:56:09.174Z",
@@ -986,7 +986,7 @@ export const tasks = [
         __v: 1,
     },
     {
-        _id: "65c3c21f55ae9b2f7666e86c",
+        id: "65c3c21f55ae9b2f7666e86c",
         title: "Duplicate - Website Project Proposal",
         date: "2024-02-07T17:46:56.040Z",
         priority: "normal",
@@ -994,19 +994,19 @@ export const tasks = [
         assets: [],
         team: [
             {
-                _id: "65c202d4aa62f32ffd1303cc",
+                id: "65c202d4aa62f32ffd1303cc",
                 name: "Tory Robinson",
                 title: "Administrator",
                 email: "admin@gmail.com",
             },
             {
-                _id: "65c27a0e18c0a1b750ad5cad",
+                id: "65c27a0e18c0a1b750ad5cad",
                 name: "John Doe",
                 title: "Software Engineer",
                 email: "john.doe@example.com",
             },
             {
-                _id: "65c30b96e639681a13def0b5",
+                id: "65c30b96e639681a13def0b5",
                 name: "Jane Smith",
                 title: "Product Manager",
                 email: "jane.smith@example.com",
@@ -1019,13 +1019,13 @@ export const tasks = [
                 title: "Blog App Dashboard",
                 date: "2024-02-06T00:00:00.000Z",
                 tag: "Design",
-                _id: "65c352e776ed5c48f944095c",
+                id: "65c352e776ed5c48f944095c",
             },
             {
                 title: "Blog App Admin Dashboard",
                 date: "2024-02-07T00:00:00.000Z",
                 tag: "Design",
-                _id: "65c3531476ed5c48f9440965",
+                id: "65c3531476ed5c48f9440965",
             },
         ],
         createdAt: "2024-02-07T17:47:11.560Z",
@@ -1033,7 +1033,7 @@ export const tasks = [
         __v: 1,
     },
     {
-        _id: "65c352b376ed5c48f9440955",
+        id: "65c352b376ed5c48f9440955",
         title: "Review Code Changes",
         date: "2024-02-05T00:00:00.000Z",
         priority: "medium",
@@ -1041,13 +1041,13 @@ export const tasks = [
         assets: [],
         team: [
             {
-                _id: "65c317360fd860f958baa08e",
+                id: "65c317360fd860f958baa08e",
                 name: "Alex Johnson",
                 title: "UX Designer",
                 email: "alex.johnson@example.com",
             },
             {
-                _id: "65c3176a0fd860f958baa099",
+                id: "65c3176a0fd860f958baa099",
                 name: "Emily Wilson",
                 title: "Data Analyst",
                 email: "emily.wilson@example.com",
@@ -1060,7 +1060,7 @@ export const tasks = [
                 title: "Blog App Admin Dashboard",
                 date: "2024-02-08T00:00:00.000Z",
                 tag: "Website App",
-                _id: "65c3535476ed5c48f9440973",
+                id: "65c3535476ed5c48f9440973",
             },
         ],
         createdAt: "2024-02-07T09:51:47.149Z",
@@ -1068,7 +1068,7 @@ export const tasks = [
         __v: 1,
     },
     {
-        _id: "65c351b976ed5c48f9440947",
+        id: "65c351b976ed5c48f9440947",
         title: "Website Project Proposal",
         date: "2024-02-07T00:00:00.000Z",
         priority: "high",
@@ -1076,19 +1076,19 @@ export const tasks = [
         assets: [],
         team: [
             {
-                _id: "65c202d4aa62f32ffd1303cc",
+                id: "65c202d4aa62f32ffd1303cc",
                 name: "Tory Robinson",
                 title: "Administrator",
                 email: "admin@gmail.com",
             },
             {
-                _id: "65c27a0e18c0a1b750ad5cad",
+                id: "65c27a0e18c0a1b750ad5cad",
                 name: "John Doe",
                 title: "Software Engineer",
                 email: "john.doe@example.com",
             },
             {
-                _id: "65c30b96e639681a13def0b5",
+                id: "65c30b96e639681a13def0b5",
                 name: "Jane Smith",
                 title: "Product Manager",
                 email: "jane.smith@example.com",
@@ -1101,13 +1101,13 @@ export const tasks = [
                 title: "Blog App Dashboard",
                 date: "2024-02-06T00:00:00.000Z",
                 tag: "Design",
-                _id: "65c352e776ed5c48f944095c",
+                id: "65c352e776ed5c48f944095c",
             },
             {
                 title: "Blog App Admin Dashboard",
                 date: "2024-02-07T00:00:00.000Z",
                 tag: "Design",
-                _id: "65c3531476ed5c48f9440965",
+                id: "65c3531476ed5c48f9440965",
             },
         ],
         createdAt: "2024-02-07T09:47:37.337Z",
@@ -1117,7 +1117,7 @@ export const tasks = [
 ];
 
 export const user = {
-    _id: "662f32ffd1303cc",
+    id: "662f32ffd1303cc",
     name: "Tory Robinson",
     title: "Administrator",
     role: "Admin",
@@ -1132,14 +1132,14 @@ export const user = {
 
 export const activitiesData = [
     {
-        _id: "0",
+        id: "0",
         type: "started",
         activity: "started this task.",
         date: new Date("2023-01-15").toISOString(),
         by: "Tory Robinson",
     },
     {
-        _id: "1",
+        id: "1",
         type: "commented",
         activity:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt nunc ipsum tempor purus vitae id. Morbi in vestibulum nec varius. Et diam cursus quis sed purus nam.",
@@ -1147,7 +1147,7 @@ export const activitiesData = [
         by: "Eduardo Benz",
     },
     {
-        _id: "2",
+        id: "2",
         type: "assigned",
         activity: "task to Tory Robinson",
         date: new Date("2023-01-15").toISOString(),
@@ -1155,7 +1155,7 @@ export const activitiesData = [
     },
 
     {
-        _id: "3",
+        id: "3",
         type: "in progress",
         activity:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt nunc ipsum.",
@@ -1163,14 +1163,14 @@ export const activitiesData = [
         by: "Jason Meyers",
     },
     {
-        _id: "5",
+        id: "5",
         type: "bug",
         activity: "bug to Tory Robinson",
         date: new Date("2023-01-15").toISOString(),
         by: "Tory Robinson",
     },
     {
-        _id: "4",
+        id: "4",
         type: "completed",
         activity: "Tory Robinson has completed the task assigned",
         date: new Date("2023-01-15").toISOString(),
